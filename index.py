@@ -1,0 +1,1 @@
+print('bem vindos, Structers!')
