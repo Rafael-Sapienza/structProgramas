@@ -1,1 +1,1 @@
-print('bem vindos, Structers!')
+tokenClassico = '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'
