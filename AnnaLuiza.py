@@ -1,0 +1,1 @@
+print("Lista 1 em dupla")
