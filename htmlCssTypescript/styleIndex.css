@@ -1,0 +1,20 @@
+body 
+{
+background-color: powderblue;
+color: black;
+text-align: center;
+}
+
+a:link, a:visited {
+    border: 12px solid blue;
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }

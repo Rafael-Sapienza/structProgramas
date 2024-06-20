@@ -3,10 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styleIndex.css">
+    <title>página</title>
+    <link rel="icon" href="/imagens/favicon.ico" type="image/x-icon">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        th{
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        tr:hover{
+            background-color: navajowhite;
+        }
+        tr:active{
+            background-color: crimson;
+        }
+        .header:hover{
+            background-color: peru;
+        }
+        .header:active{
+            background-color: aliceblue;
+        }
+        td{
+            border: 3px ridge  red;
+            border-radius: 20px;
+            padding:4px;
+        }
+        .youtube:hover{
+            background-color: yellowgreen;
+        }
+        .youtube:active{
+            background-color: cadetblue;
+        }
+        caption{
+            border: 4px solid red;
+            border-radius: 10px;
+        }
+    </style>
+    
 </head>
 <body>
-    <h1>Ola mundo</h1>
-    <script src="script.ts"></script>
+    <table>
+        <caption class="youtube">Experimento dos gases ideais</caption>
+        <tr class="header">
+            <th>Temperatura</th>
+            <th>Pressão</th>
+            <th>Volume</th>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>30</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td>12</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <h1>Unordered</h1>
+        <ul>
+            <li>Coffe</li>
+            <ul>
+                <li>Bread</li>
+                <li>Milk</li>
+            </ul>
+        </ul>
+        <h1>Ordered</h1>
+        <ol type="1" start="40">
+            <li>Coffe</li>
+            <li>Bread</li>
+            <li>Milk</li>
+        </ol>
+        <dl>
+            <dt>Coffe</dt>
+            <dd>- Black <span style="border:2px solid black;">hot</span> drink</dd>
+            <dt>Milk</dt>
+            <dd>- White drink</dd>
+        </dl>
 </body>
 </html>
