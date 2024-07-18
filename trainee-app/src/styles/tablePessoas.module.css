@@ -1,0 +1,28 @@
+.tablePessoas{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tablePessoas > thead {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #922E2E;    
+}
+.tablePessoas > thead > tr > th {
+    border: 1px solid black;
+    border-collapse: collapse;        
+}
+
+.tablePessoas > tbody {
+    background-color: #c24124;
+}
+
+
+.tablePessoas > tbody >tr{
+    border: 1px solid black;
+    border-collapse: collapse;      
+}
+
+.tablePessoas > tbody > tr > th{
+    border: 1px solid black;
+    border-collapse: collapse;      
+}
