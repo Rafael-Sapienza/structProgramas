@@ -1,9 +1,9 @@
 import { TBodyDashboard} from "./TBodyDashboard";
-import styles from "~/styles/paginaExtrato/tabelaExtrato.module.css"
+import styles from "~/styles/dashboard/dashboardTable.module.css"
 
 export function TabelaDashboard(){
     return(
-        <table className= {styles.tabelaExtrato}>
+        <table className= {styles.dashboardTable}>
             <thead>
                 <tr>
                     <th>Produto</th>
